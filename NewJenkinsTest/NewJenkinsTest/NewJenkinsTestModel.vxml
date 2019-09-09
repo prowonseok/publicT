@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vxml:Document xmlns:vxml="http://www.vms-solutions.com/mozart/vxml/2012/1" xmlns:def="definitions" xmlns:ref="references" ContentType="vmodel" ContentKey="NewJenkinsTestModel" xmlns="Mozart.Task.Execution.Design, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null" xmlns:ctf="clr-namespace:Mozart.Task.Framework;assembly:Mozart.Task.Framework, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null" xmlns:ctm="clr-namespace:Mozart.Task.Model;assembly:Mozart.Task.Model, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null" xmlns:cdd="clr-namespace:Mozart.DataActions;assembly:Mozart.DataActions, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null">
+  <Content>
+    <VModelDoc Name="NewJenkinsTestModel" OverrideValues="" TestValues="" InputStorageType="File" OutputStorageType="File">
+      <TargetDefinition>
+        <ctf:TargetDefinition Guid="328af592-019a-4609-afec-d9d0459eadac" Title="NewJenkinsTest" Category="Site" AssemblyName="NewJenkinsTest" PrivatePath="" />
+      </TargetDefinition>
+      <ArgumentArray>
+        <ctm:ArgumentInfo-Array />
+      </ArgumentArray>
+      <ConfigArray>
+        <ctm:ArgumentInfo-Array />
+      </ConfigArray>
+      <Inputs Name="Inputs" Storage="C:\Users\Lenovo\source\repos\NewJenkinsTest\NewJenkinsTest\Generated\Data">
+        <ItemArray>
+          <cdd:DataItem-Array />
+        </ItemArray>
+      </Inputs>
+      <Outputs Name="Outputs">
+        <ItemArray>
+          <cdd:DataItem-Array />
+        </ItemArray>
+      </Outputs>
+      <DataSources />
+    </VModelDoc>
+  </Content>
+</vxml:Document>

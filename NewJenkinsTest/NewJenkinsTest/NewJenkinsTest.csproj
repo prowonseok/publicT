@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectTypeGuids>{ACF14516-A304-4AE5-93E6-F8E1F03CF242};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{D9CFA990-3FFC-4E5D-AAF2-21F6B5348C1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewJenkinsTest</RootNamespace>
+    <AssemblyName>NewJenkinsTest</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <MozartBaseLibrary>SeePlan.General</MozartBaseLibrary>
+    <MozartProjectPrefix>NewJenkinsTest</MozartProjectPrefix>
+    <MozartLicType>SmartAPS</MozartLicType>
+    <MozartUsePkg>true</MozartUsePkg>
+    <MozartSitePrj>false</MozartSitePrj>
+    <SitePrjLibrary>SAPS.Planning.dll</SitePrjLibrary>
+    <MozartExecutionDir>C:\ProgramData\Mozart\Execution\Bin</MozartExecutionDir>
+    <MozartModelName>NewJenkinsTestModel</MozartModelName>
+    <MozartRefPkg>SAPS.Planning.SAPSSitePackage, SAPS.Planning</MozartRefPkg>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files (x86)\VMS\Mozart\Client\Bin\SmartAPSStudio.exe</StartProgram>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Mozart.Common">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Core">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Data">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Data.Entity">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.DataActions">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.DataActions.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Distributions">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Distributions.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.RuleFlow">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.RuleFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.SeePlan">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.SeePlan.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Simulation.Engine">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Simulation.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Simulation.EnterpriseLibrary">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Simulation.EnterpriseLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.SeePlan.General">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.SeePlan.General.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPS.Planning">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\SAPS.Planning.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Task.Framework">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Task.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Mozart.Task.Execution">
+      <HintPath>C:\ProgramData\Mozart\Execution\Bin\Mozart.Task.Execution.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Generated\Main.0.cs" />
+    <Compile Include="Generated\My Objects.0.cs" />
+    <Compile Include="Generated\My Objects.DataModel.cs" />
+    <Compile Include="Generated\NewJenkinsTestModel.0.cs" />
+    <Compile Include="Generated\NewJenkinsTestModel.Inputs.cs" />
+    <Compile Include="Generated\NewJenkinsTestModel.Outputs.cs" />
+    <Compile Include="Generated\NewJenkinsTestModel.Persists.cs" />
+    <Compile Include="Generated\Pegging.0.cs" />
+    <Compile Include="Generated\Scheduling.0.cs" />
+    <Compile Include="Main.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Main.vxml</DependentUpon>
+    </Compile>
+    <Compile Include="My Objects.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>My Objects.vxml</DependentUpon>
+    </Compile>
+    <Compile Include="NewJenkinsTestModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewJenkinsTestModel.vxml</DependentUpon>
+    </Compile>
+    <Compile Include="Pegging.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pegging.vxml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduling.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scheduling.vxml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main.vxml">
+      <Generator>MozartCode</Generator>
+      <LastGenOutput>Main.cs</LastGenOutput>
+    </None>
+    <None Include="My Objects.vxml">
+      <Generator>MozartCode</Generator>
+      <LastGenOutput>My Objects.cs</LastGenOutput>
+    </None>
+    <None Include="NewJenkinsTestModel.vxml">
+      <Generator>MozartCode</Generator>
+      <LastGenOutput>NewJenkinsTestModel.cs</LastGenOutput>
+    </None>
+    <None Include="Pegging.vxml">
+      <Generator>MozartCode</Generator>
+      <LastGenOutput>Pegging.cs</LastGenOutput>
+    </None>
+    <None Include="Scheduling.vxml">
+      <Generator>MozartCode</Generator>
+      <LastGenOutput>Scheduling.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

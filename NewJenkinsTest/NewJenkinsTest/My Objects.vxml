@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vxml:Document xmlns:vxml="http://www.vms-solutions.com/mozart/vxml/2012/1" xmlns:def="definitions" xmlns:ref="references" ContentType="dataclass" ContentKey="My Objects" xmlns="Mozart.Task.Execution.Design, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null" xmlns:ctm="clr-namespace:Mozart.Task.Model;assembly:Mozart.Task.Model, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null" xmlns:cdm="clr-namespace:Mozart.DataActions.Metadata;assembly:Mozart.DataActions, Version=2019.116.0.61, Culture=neutral, PublicKeyToken=null" xmlns:cpd="clr-namespace:SAPS.Planning.DataModel;assembly:SAPS.Planning, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <Content>
+    <FDataClassRoot Name="My Objects">
+      <Constants>
+        <FConstantItem Name="Constants">
+          <ArgumentArray>
+            <ctm:ArgumentInfo-Array />
+          </ArgumentArray>
+        </FConstantItem>
+      </Constants>
+      <Enums>
+        <FDataClassFolder Name="Enums" />
+      </Enums>
+      <Children Capacity="4">
+        <FDataClassFolder Name="Common">
+          <Children Capacity="8">
+            <FDataClassItem Name="NewJenkinsTestSAPSStdStep">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSStdStep">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSStdStep" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSStep">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSStep">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSStep" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSWipInfo">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSWipInfo">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSWipInfo" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSProcess">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSProcess">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSProcess" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSProduct">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSProduct">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSProduct" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+          </Children>
+        </FDataClassFolder>
+        <FDataClassFolder Name="Simulation">
+          <Children Capacity="8">
+            <FDataClassItem Name="NewJenkinsTestSAPSInTarget">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSInTarget">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSInTarget" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSWeightPreset">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSWeightPreset">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSWeightPreset" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSLotBatch">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSLotBatch">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSLotBatch" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSLot">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSLot">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSLot" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSEqp">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSEqp">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSEqp" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSPlanInfo">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSPlanInfo">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSPlanInfo" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+          </Children>
+        </FDataClassFolder>
+        <FDataClassFolder Name="Pegging">
+          <Children Capacity="8">
+            <FDataClassItem Name="NewJenkinsTestSAPSMoMaster">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSMoMaster">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSMoMaster" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSMoPlan">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSMoPlan">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSMoPlan" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSPegPart">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSPegPart">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSPegPart" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSPegTarget">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSPegTarget">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSPegTarget" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+            <FDataClassItem Name="NewJenkinsTestSAPSPlanWip">
+              <Content>
+                <DataClassMeta Name="NewJenkinsTestSAPSPlanWip">
+                  <BaseClass>
+                    <cdm:ReflectedBaseTypeInfo TargetType="cpd:SAPSPlanWip" />
+                  </BaseClass>
+                </DataClassMeta>
+              </Content>
+            </FDataClassItem>
+          </Children>
+        </FDataClassFolder>
+      </Children>
+    </FDataClassRoot>
+  </Content>
+</vxml:Document>
